@@ -4,6 +4,7 @@ from typing import Tuple, List
 
 
 def zoom_array(lst: Tuple, factor: int = 2) -> List:
+    '''Creates multiple copies of items from a tuple and return a list'''
     zoomed_in: List = [
         item for item in lst
         for i in range(factor)
