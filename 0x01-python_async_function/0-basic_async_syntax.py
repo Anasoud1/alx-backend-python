@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-'''asynchronous coroutine'''
+'''wait_random module'''
 import random
 import asyncio
 
